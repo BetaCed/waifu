@@ -1,0 +1,122 @@
+<html>
+<head>
+    <title>Waifus</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta name="viewport" content="width = device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+</head>
+<body>
+<section id="banner">
+      <img src="pics/Betagana.png" class="logo" />
+      <div class="banner-text">
+          <hl>Anime Waifus</hl>
+          <p>They are eternal, Your wife isn't</p>
+          <div class="banner-btn">
+              <a href="#"><span></span>Breakfast</a>
+              <a href="#"><span></span>Lunch</a>
+              <a href="#"><span></span>Dinner</a>
+
+          </div>
+      </div>
+</section>
+
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#">KITCHEN</a></li>
+            <li><a href="#">BEDROOM</a></li>
+            <li><a href="#">LIVINGROOM</a></li>
+            <li><a href="#">BATHROOM</a></li>
+            <li><a href="#">OUTSIDE</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+        <img src="pics/menu.png" id="menu" />
+</div>
+
+<!--BEDROOM-->
+
+<section id="bedroom">
+<div class="title-text">
+<p>BEDROOM</p>
+<h1>What to do</h1>
+</div>
+<div class="bedroom-area">
+    <div class="bedroom">  
+        <h1>Cuddle in bed</h1>
+        <div class="how">
+            <div class="how-icon">
+            <i class="fa fa-bed"></i>
+        </div>
+            <div class="how-text">
+                <p>Bet your wife is too busy streaming on twitch. Waifus however will always stay by your side, Go buy a waifu body pillow and start cuddling with them on bed!</p>
+            </div>
+        </div>
+    </div>
+    <div class="bedroom-img">
+        <img src="pics/cuddle.jpg">
+    </div>
+</div>
+<div class="bedroom-area">
+    <div class="bedroom">  
+        <h1>Watch TV</h1>
+        <div class="how">
+            <div class="how-icon">
+            <i class="fa fa-television"></i>
+        </div>
+            <div class="how-text">
+                <p>Well well well, Your wife doesnt like your tv show taste huh? Waifus, however, Love everything you love! from Traps sword fights to The power of friendship sparkle bean my little pony, Waifus Accept on whoever you are!</p>
+            </div>
+        </div>
+    </div>
+    <div class="bedroom-img">
+        <img src="pics/Watch TV.jpg">
+    </div>
+</div>
+<div class="bedroom-area">
+    <div class="bedroom">  
+        <h1>Smash</h1>
+        <div class="how">
+            <div class="how-icon">
+            <i class="fa fa-television"></i>
+        </div>
+            <div class="how-text">
+                <p>After all night of cuddling and watching tv, It all comes down to this. Smash! Get your controller ready and play smash with your waifus! Your wife probably doesnt even know how a controller work.</p>
+            </div>
+        </div>
+    </div>
+    <div class="bedroom-img">
+        <img src="pics/smash.jpg">
+    </div>
+</div>
+</section>
+
+
+
+
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-250px"
+
+    menuBtn.onclick = function () {
+        if (sideNav.style.right == "-250px") {
+            sideNav.style.right = "0";
+        } else {
+            sideNav.style.right = "-250px";
+        }
+
+    }
+</script>
+
+
+
+
+
+</body>
+</html>
